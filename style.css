@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: beige;
+    font-size: large;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px;
+    outline: none;
+    transition: all ease 0.15s;
+}
+
+input:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+hr {
+    background-color: black;
+}
+
+button {
+    background-color: blanchedalmond;
+    padding: 9px;
+    margin-left: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.15s;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px 0px burlywood;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px burlywood;
+}
+
+#output {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
